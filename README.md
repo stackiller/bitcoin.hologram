@@ -13,20 +13,20 @@
 ## Usage:
 
 1. Clone the repository:
-```
-git clone https://github.com//bitcoin_art.git
+```sh
+$ git clone https://github.com//bitcoin_art.git
 ```
 
 2. Compile:
-```
-gcc -c main.c core.c
-gcc main.o kernel.o -o bitcoin_art
+```sh
+$ gcc -c main.c core.c
+$ gcc main.o kernel.o -o bitcoin_art
 
 ```
 
 3. Running:
-```
-./bitcoin_art <color: 0-7> <invert rotation: 0 or 1 / false - true>
+```sh
+$ ./bitcoin_art <color: 0-7> <invert rotation: 0 or 1 / false - true>
 
 Colors:
 0 - Black;
