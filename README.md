@@ -21,9 +21,11 @@ $ gcc main.o kernel.o -o bitcoin_art
 
 ## How to use ##
 ```sh
-$ ./bitcoin_art <color: 0-7> <invert rotation: 0 or 1 / false - true>
+$ ./bitcoin_art <color-id: 0-7> <invert rotation: 0 or 1 / false - true>
+```
 
-Colors:
+## Colors id ##
+```
 0 - Black;
 1 - Red;
 2 - Green;
