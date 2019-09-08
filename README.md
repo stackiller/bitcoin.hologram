@@ -11,11 +11,9 @@
 ```
 
 ## Compile ##
-
-1. Clone the repository:
 ```sh
-$ git clone https://github.com//bitcoin_art.git
-$ gcc -c main.c core.c
+$ git clone https://github.com/stackiller/bitcoin_art.git
+$ cd bitcoin_art && gcc -c main.c core.c
 $ gcc main.o kernel.o -o bitcoin_art
 ```
 
