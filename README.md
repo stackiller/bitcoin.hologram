@@ -1,4 +1,4 @@
-# bitcoin ascii art.
+# bitcoin hologram ascii art.
 
 ```
 
@@ -11,13 +11,13 @@
 
 ## Compile ##
 ```sh
-$ git clone https://github.com/stackiller/bitcoin_art.git
-$ cd bitcoin_art && gcc -c main.c core.c && gcc main.o kernel.o -o bitcoin_art
+$ git clone https://github.com/stackiller/bitcoin.hologram
+$ cd bitcoin.hologram && cc main.c core.c -o hologram -Wall
 ```
 
 ## How to use ##
 ```sh
-$ ./bitcoin_art <color-id: 0-7> <invert rotation: 0 or 1 / false - true>
+$ ./hologram <color-id: 0-7> <invert rotation: 0 or 1 / false - true>
 ```
 
 ## Colors id ##
